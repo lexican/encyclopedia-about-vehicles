@@ -2,12 +2,23 @@ import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import ItemDetails from '../../components/ItemDetails';
 import Navbar from '../../components/Navbar/navbar';
+import { data } from '../../data';
 import './index.scss';
 
 export default function DetailsPage() {
 	const [currentImage, setCurrentImage] = useState(0);
 	const location = useLocation();
-	const item = location.state?.item;
+	let item = location.state?.item;
+	const text = location.state?.text;
+	let error = null;
+
+	if (text) {
+		const index = data.findIndex((d) => d.name === text.toLowerCase());
+		if (index !== -1) item = data[index];
+		else {
+			error = 'Vehicle not found';
+		}
+	}
 
 	const previous = () => {
 		setCurrentImage((prev) => {
@@ -22,6 +33,10 @@ export default function DetailsPage() {
 			return prev;
 		});
 	};
+
+	if (error) {
+		return <h1>{error}</h1>;
+	}
 
 	return (
 		<div
