@@ -22,7 +22,7 @@ export const data = [
     videos: ["", "", ""],
   },
   {
-    name: "Bicycle",
+    name: "bicycle",
     names: {
       english: "car",
       yoruba: "keke",
