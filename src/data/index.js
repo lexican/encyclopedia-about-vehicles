@@ -7,7 +7,7 @@ export const data = [
 		},
 		transcription: {
 			english: '/kär/',
-			yoruba: '',
+			yoruba: '/ˈbīsək(ə)l/',
 		},
 		about: {
 			english:
@@ -29,7 +29,7 @@ export const data = [
 		},
 		transcription: {
 			english: '/ˈbīsək(ə)l/',
-			yoruba: '',
+			yoruba: '/ˈbīsək(ə)l/',
 		},
 		about: {
 			english:
