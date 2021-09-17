@@ -1,0 +1,77 @@
+.home {
+  .banner {
+    height: 90vh;
+    background-image: url("../../assets/images/banner.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #000000;
+    background-position: center;
+  }
+  .inner-container {
+    height: 79vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f9f9f9;
+    h2 {
+      font-size: 40px;
+      line-height: 48px;
+      font-weight: normal !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+    .input-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin-top: 20px;
+    }
+    .input-container > img {
+      position: absolute;
+      left: 15px;
+    }
+    .form-control {
+      display: block;
+      width: 500px;
+      padding: 0.375rem 0.75rem 0.375rem 2.75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      background-clip: padding-box;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-radius: 1.95rem;
+    }
+    .form-control:focus {
+      outline: none;
+    }
+    .input-icon {
+      position: absolute;
+    }
+  }
+  .main {
+    background: #ffffff;
+    padding: 40px 77px;
+    h4 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19.36px;
+      color: #000000;
+      margin-bottom: 20px !important;
+    }
+    .vehicles{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .card{
+            margin-right: 8px;
+            margin-bottom: 10px;
+        }
+    }
+  }
+}
