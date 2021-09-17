@@ -12,7 +12,7 @@ export default function Home() {
 
 	const handleSearch = () => {
 		if (text.length > 0) {
-			history.push(`/result/${text}`);
+			history.push({ pathname: `/result/${text}`, state: { text } });
 		}
 	};
 
@@ -20,6 +20,7 @@ export default function Home() {
 		<div className='home'>
 			<div className='banner'>
 				<Navbar />
+
 				<div className='inner-container'>
 					<h2>Vehicle encyclopedia</h2>
 					<div className='input-container'>
@@ -32,11 +33,12 @@ export default function Home() {
 						></input>
 					</div>
 				</div>
+
 				<section className='main'>
 					<h4>Select a type of vehicle</h4>
 					<div className='vehicles'>
 						{data.map((item) => {
-							return <Vehiclecard item={item} />;
+							return <Vehiclecard key={item.name} item={item} />;
 						})}
 					</div>
 				</section>
