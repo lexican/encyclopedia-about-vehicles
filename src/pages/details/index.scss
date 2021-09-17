@@ -1,0 +1,48 @@
+.details-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+
+	.nav-wrapper {
+		position: absolute;
+		top: 0;
+	}
+
+	.details-wrapper {
+		position: absolute;
+		top: 35%;
+		left: 90px;
+	}
+
+	.right-nav,
+	.left-nav {
+		position: absolute;
+		top: 45%;
+		width: 50.67px;
+		height: 101.33px;
+		background: #030813;
+		border-radius: 4px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+
+		img {
+			width: 25px;
+			height: 50px;
+		}
+	}
+
+	.left-nav {
+		left: 20px;
+	}
+
+	.right-nav {
+		right: 20px;
+	}
+}
