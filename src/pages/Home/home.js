@@ -23,7 +23,7 @@ export default function Home() {
         <div className="inner-container">
           <h2>Vehicle encyclopedia</h2>
           <div className="input-container">
-            <img src={Search} onClick={handleSearch} />
+            <img src={Search} onClick={handleSearch} alt="Search icon" />
             <input
               type="text"
               placeholder="Seach any type of vehicle"
