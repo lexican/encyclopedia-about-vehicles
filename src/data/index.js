@@ -16,8 +16,8 @@ export const data = [
         "Ọkọ ayọkẹlẹ kẹkẹ mẹrin ti a lo fun gbigbe, eyiti o ṣiṣẹ ni akọkọ lori awọn ọna.",
     },
     images: [
-      "https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278_960_720.jpg",
-      "https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/22/23/44/porsche-1851246_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/22/23/44/porsche-1851246_960_720.jpg",
     ],
     videos: ["", "", ""],
   },
@@ -38,8 +38,8 @@ export const data = [
         "Bọọlu keke, ti a tun pe ni keke tabi gigun kẹkẹ, jẹ agbara eniyan tabi agbara motor, iwakọ ẹlẹsẹ, ọkọ-orin kan, ti o ni awọn kẹkẹ meji ti a so mọ fireemu kan, ọkan lẹhin ekeji.",
     },
     images: [
-      "https://cdn.pixabay.com/photo/2013/07/13/13/46/bicycle-161524_960_720.png",
-      "https://cdn.pixabay.com/photo/2013/07/13/13/46/bicycle-161524_960_720.png",
+      "https://cdn.pixabay.com/photo/2017/06/27/11/52/mountain-bike-2447170_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2017/06/27/11/52/mountain-bike-2447170_960_720.jpg",
     ],
     videos: ["", "", ""],
   },
