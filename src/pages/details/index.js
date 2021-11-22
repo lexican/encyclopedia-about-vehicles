@@ -13,7 +13,7 @@ export default function DetailsPage() {
 	let error = null;
 
 	if (text) {
-		const index = data.findIndex((d) => d.name === text.toLowerCase());
+		const index = data.findIndex((d) => d.name === text.toLowerCase() || d.names.yoruba === text.toLowerCase());
 		if (index !== -1) item = data[index];
 		else {
 			error = 'Vehicle not found';
