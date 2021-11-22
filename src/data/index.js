@@ -24,7 +24,7 @@ export const data = [
   {
     name: "bicycle",
     names: {
-      english: "car",
+      english: "bicycle",
       yoruba: "keke",
     },
     transcription: {
